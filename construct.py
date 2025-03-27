@@ -2,6 +2,7 @@ def grab(filename):
 	returnString = ""
 	with open(filename, "r+") as file:
 		for line in file.readlines():
+			returnString += "\t"
 			returnString += line
 
 	return returnString
