@@ -17,7 +17,7 @@
 						<div class="carousel-item active">
 							<div class="row d-none d-md-flex">
 								<div class="col-6">
-									<img src="https://media.tenor.com/El89itaAWsIAAAAm/maxwell.webp" class="d-block w-100" style="height:400px;">
+									<img alt="Maxwell the mascot" src="https://media.tenor.com/El89itaAWsIAAAAm/maxwell.webp" class="d-block w-100" style="height:400px;">
 								</div>
 								<div class="col-4 d-flex align-items-center">
 									<p class="text-primary text-center">This is Maxwell, mascot of <misc class="text-danger">Furry Timber BV</misc></p>
@@ -25,7 +25,7 @@
 								<div class="col-2"><!-- this div is for padding --></div>
 							</div>
 							<div class="row d-flex d-md-none">
-								<img src="https://media.tenor.com/El89itaAWsIAAAAm/maxwell.webp" class="d-block w-100" style="height:400px;">
+								<img alt="Maximillian the mascot" src="https://media.tenor.com/El89itaAWsIAAAAm/maxwell.webp" class="d-block w-100" style="height:400px;">
 							</div>
 						</div>
 						<div class="carousel-item">
@@ -39,7 +39,7 @@
 								<div class="col-2"><!-- this div is for padding --></div>
 							</div>
 							<div class="row d-flex d-md-none">
-								<img src="https://media.tenor.com/-O8iUQLR9dQAAAAm/maxwell-spin.webp" class="d-block w-100" style="height:400px;">
+								<img alt="Maxime the mascot" src="https://media.tenor.com/-O8iUQLR9dQAAAAm/maxwell-spin.webp" class="d-block w-100" style="height:400px;">
 							</div>
 						</div>
 						<div class="carousel-item">
