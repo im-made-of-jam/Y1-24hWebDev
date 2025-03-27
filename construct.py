@@ -38,6 +38,7 @@ with open("index.html", "w+") as file:
 	file.write(grab("components/header"))
 	file.write(grab("components/navbar"))
 	file.write(grab("components/1stRow"))
+	file.write(grab("components/2ndRow"))
 
 	file.write(grab("components/footer"))
 	end(file)
