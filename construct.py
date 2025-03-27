@@ -1,5 +1,5 @@
 def grab(filename):
-	returnString = ""
+	returnString = f"<!-- {filename} -->"
 	with open(filename, "r+") as file:
 		for line in file.readlines():
 			returnString += "\t"
@@ -36,7 +36,6 @@ with open("index.html", "w+") as file:
 	############
 	# body stuff
 	############
-	file.write(grab("components/header"))
 	file.write(grab("components/navbar"))
 	file.write(grab("components/1stRow"))
 	file.write(grab("components/2ndRow"))
