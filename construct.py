@@ -1,13 +1,15 @@
 def grab(filename):
-	returnString = f"<!-- {filename} -->\n"
+	returnString = f"	<!-- {filename} -->\n"
+	hadLines = False
 	with open(filename, "r+") as file:
 		for line in file.readlines():
+			hadLines = True
 			returnString += "\t"
 			returnString += line
 
-	returnString += f"<!-- end {filename} -->\n"
+	returnString += f"	<!-- end {filename} -->\n"
 
-	return returnString
+	return returnString if hadLines else ""
 
 def start(file):
 	file.write("""<!doctype html>
