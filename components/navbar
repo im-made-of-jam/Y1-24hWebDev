@@ -8,10 +8,21 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-link disabled text-warning" aria-current="page" href="#">Work For Us</a>
-						<a class="nav-link disabled text-warning" aria-current="page" href="#">Service</a>
-						<a class="nav-link disabled text-warning" aria-current="page" href="#">Buy</a>
-						<a class="nav-link disabled text-warning" aria-current="page" href="#">Rent</a>
+						<div class="dropdown">
+							<button class="btn bg-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Work For Us
+							</button>
+							<ul class="dropdown-menu bg-warning">
+								<li><a class="dropdown-item" href="#">Racing Driver</a></li>
+								<li><a class="dropdown-item" href="#">CEO</a></li>
+								<li><a class="dropdown-item" href="#">Unpaid Intern</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item">All Positions</a></li>
+							</ul>
+						</div>
+						<div class="nav-link"><a class="text-warning" aria-current="page" href="#">Service</a></div>
+						<div class="nav-link"><a class="text-warning" aria-current="page" href="#">Buy</a></div>
+						<div class="nav-link"><a class="text-warning" aria-current="page" href="#">Rent</a></div>
 					</div>
 				</div>
 			</div>
