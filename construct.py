@@ -1,9 +1,11 @@
 def grab(filename):
-	returnString = f"<!-- {filename} -->"
+	returnString = f"<!-- {filename} -->\n"
 	with open(filename, "r+") as file:
 		for line in file.readlines():
 			returnString += "\t"
 			returnString += line
+
+	returnString += f"<!-- end {filename} -->\n"
 
 	return returnString
 
