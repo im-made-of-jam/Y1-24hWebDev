@@ -1,0 +1,70 @@
+<div style="padding-top: 100px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-4"><!-- This is a div used for padding --></div>
+			<div class="col-4 text-primary fw-bold text-center">
+				Look at the mascots of the companies we helped to create!
+			</div>
+			<div class="col-4"><!-- This is a div used for padding --></div>
+		</div>
+	</div>
+	<div class="container p-3">
+		<div class="row">
+			<div class="col-2"><!-- This is a div used for padding --></div>
+			<div class="col">
+				<div id="carouselExample" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row">
+								<div class="col-6">
+									<img src="https://media.tenor.com/El89itaAWsIAAAAj/maxwell.gif" class="d-md-block w-auto" style="height:400px;">
+								</div>
+								<div class="col d-flex align-items-center justify-content-center" style="display:flex; align-items:center;">
+									<p class="text-primary text-center d-none d-md-block">
+										This is Maxwell, mascot of <misc class="text-danger">Cat Company LLC</misc>
+									</p>
+								</div>
+								<div class="col-2"><!-- This is a div used for padding --></div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-6">
+									<img src="https://media.tenor.com/-O8iUQLR9dQAAAAi/maxwell-spin.gif" class="d-md-block w-auto" style="height:400px">
+								</div>
+								<div class="col d-flex align-items-center justify-content-center" style="display:flex; align-items:center;">
+									<p class="text-primary text-center d-md-block">
+										This is Maximillian, mascot of <misc class="text-danger">Texas Tuxedos BV</misc>
+									</p>
+								</div>
+								<div class="col-2"><!-- This is a div used for padding --></div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col">
+									<img src="https://media.tenor.com/gIujj5bPWmMAAAAi/maxwell.gif" class="d-md-block w-auto" style="height:300px; margin-top:50px; margin-bottom:50px;;">
+								</div>
+								<div class="col d-flex align-items-center justify-content-center" style="display:flex; align-items:center;">
+									<p class="text-primary text-center d-none d-md-block">
+										This is Maxime, mascot of <dimiscv class="text-danger">Digital Data Munchers Pte. Ltd</misc>
+									</p>
+									<div class="col-2"><!-- This is a div used for padding --></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+			<div class="col-2"><!-- This is a div used for padding --></div>
+		</div>
+	</div>
+</div>

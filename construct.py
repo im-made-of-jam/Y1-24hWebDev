@@ -39,6 +39,12 @@ with open("index.html", "w+") as file:
 	file.write(grab("components/navbar"))
 	file.write(grab("components/1stRow"))
 	file.write(grab("components/2ndRow"))
+	file.write(grab("components/3rdRow"))
 
 	file.write(grab("components/footer"))
+
+	#########################
+	# end of the file
+	# write nothing new below
+	#########################
 	end(file)

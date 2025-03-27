@@ -1,5 +1,5 @@
 <div class="container">
-	<footer class="fixed-bottom text-center fw-bold" style="background-color:black">
+	<footer class="fixed-bottom text-center fw-bold p-3" style="background-color:black">
 		<div class="container">
 			<div class="row">
 				<div class="col"></div> <!-- this and the third column are spacers -->
