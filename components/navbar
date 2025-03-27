@@ -20,9 +20,9 @@
 								<li><a class="dropdown-item">All Positions</a></li>
 							</ul>
 						</div>
-						<div class="nav-link"><a class="text-warning" aria-current="page" href="#">Service</a></div>
-						<div class="nav-link"><a class="text-warning" aria-current="page" href="#">Buy</a></div>
-						<div class="nav-link"><a class="text-warning" aria-current="page" href="#">Rent</a></div>
+						<div class="nav-link"><a class="bg-tertiary text-warning" aria-current="page" href="#">Service Your Company</a></div>
+						<div class="nav-link"><a class="bg-tertiary text-warning" aria-current="page" href="#">Buy A Company</a></div>
+						<div class="nav-link"><a class="bg-tertiary text-warning" aria-current="page" href="#">Rent A Company</a></div>
 					</div>
 				</div>
 			</div>
