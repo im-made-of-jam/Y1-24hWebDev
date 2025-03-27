@@ -1,0 +1,7 @@
+<div class=container-fluid>
+	<div class="row">
+		<div class="col-6 p-1 text-success text-center">c1</div>
+		<div class="col-4 p-1 text-warning text-center">c2</div>
+		<div class="col-2 p-1 text-danger text-center">c3</div>
+	</div>
+</div>
