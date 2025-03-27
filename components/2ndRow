@@ -1,0 +1,18 @@
+<div class=container>
+	<div class="row">
+		<div class="col-4">
+			<div class="card">
+				<img src="https://cdn.discordapp.com/attachments/819647059846103051/1354813578313601044/IMG_8668.png?ex=67e6a7f8&is=67e55678&hm=d07257a95b1dab458d7241b825846368a37070ac2733d9bd8c4318f95b95279b&"/>
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="card">
+				<img src="https://cdn.discordapp.com/attachments/819647059846103051/1354813578645078168/icon-7833512_960_720.webp?ex=67e6a7f8&is=67e55678&hm=36017d31c18c10eeeea29b6e0d794cf1ab7887cbde4fc7d22260322f48c5befd&"/>
+			</div>
+		</div>
+		<div class="card">
+		</div>
+		<div class="col-4">
+		</div>
+	</div>
+</div>
