@@ -16,7 +16,7 @@ def start(file):
 
 def middle(file):
 	file.write("""</head>
-<body>
+<body class="bg-dark">
 """)
 	
 def end(file):

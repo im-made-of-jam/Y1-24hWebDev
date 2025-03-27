@@ -1,10 +1,10 @@
 <div class="container">
-	<footer class="fixed-bottom bg-body-tertiary text-center">
+	<footer class="fixed-bottom text-center fw-bold" style="background-color:black">
 		<div class="container">
 			<div class="row">
-				<div class="col">C1</div>
-				<div class="col">C2</div>
-				<div class="col">C3</div>
+				<div class="col"></div> <!-- this and the third column are spacers -->
+				<div class="col"><a href="#">Contact us!</a></div>
+				<div class="col"></div>
 			</div>
 		</div>
 	</footer>
