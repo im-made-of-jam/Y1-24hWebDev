@@ -36,6 +36,7 @@ with open("index.html", "w+") as file:
 	##############
 	# header stuff
 	##############
+	file.write(grab("components/header"))
 	middle(file)
 	############
 	# body stuff
