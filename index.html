@@ -8,8 +8,8 @@
 	<!-- components/navbar -->
 	<div class="container-fluid" style="background-color:black">
 		<div class="row">
-			<nav class="navbar navbar-expand-lg">
-				<div class="container-fluid">
+			<nav class="navbar navbar-expand-sm">
+				<div class="container-fluid d-none d-lg-flex">
 					<a class="navbar-brand text-danger" href="#">The Company Company</a>
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 						<div class="navbar-nav">
@@ -29,6 +29,20 @@
 							<div class="nav-link"><a class="bg-tertiary text-warning" aria-current="page" href="#">Buy A Company</a></div>
 							<div class="nav-link"><a class="bg-tertiary text-warning" aria-current="page" href="#">Rent A Company</a></div>
 						</div>
+					</div>
+				</div>
+				<div class="container-fluid d-flex d-lg-none">
+					<a class="navbar-brand text-danger" href="#">The Company Company</a>
+					<div class="dropdown">
+						<button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Menu
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end bg-warning">
+							<li><a class="dropdown-item" href="#">Work For Us</a></li>
+							<li><a class="dropdown-item" aria-current="page" href="#">Service Your Company</a></li>
+							<li><a class="dropdown-item" aria-current="page" href="#">Buy A Company</a></li>
+							<li><a class="dropdown-item" aria-current="page" href="#">Rent A Company</a></li>
+						</ul>
 					</div>
 				</div>
 			</nav>
